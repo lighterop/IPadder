@@ -1,0 +1,7 @@
+name = "network-info-detector" # 您的 Worker 名称 (请自定义)
+main = "worker.js"             # 您的 Worker 主脚本文件 (根据您的实际文件名调整)
+compatibility_date = "2024-01-01" # 兼容性日期，保持最新即可
+
+[site]
+# 如果您只是部署 Worker 脚本，不需要 site 配置，可以删除这一段
+# 如果您的脚本是作为 Pages/Functions 部署的，请按 Cloudflare 默认设置。
